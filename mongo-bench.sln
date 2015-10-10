@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Results", "Results", "{F427F1C7-92EC-4402-A3AB-0EA51BD809D8}"
 	ProjectSection(SolutionItems) = preProject
-		mongodb-2.6.1-parallels.txt = mongodb-2.6.1-parallels.txt
+		results\mongodb-2.6.1-parallels.txt = results\mongodb-2.6.1-parallels.txt
 	EndProjectSection
 EndProject
 Global
