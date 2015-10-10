@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongo-bench", "mongo-bench\mongo-bench.csproj", "{57876148-D812-4202-92E4-70FB2D3E4FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongo-bench-2", "mongo-bench-2\mongo-bench-2.csproj", "{8A810794-1712-4A07-906A-4BC800787EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongo-bench-3", "mongo-bench-3\mongo-bench-3.csproj", "{9A4C8DB6-6AE1-409B-B70D-207B24FA750E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1485602B-600F-4EAA-B6B8-F24A3FF1746D}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		run.cmd = run.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Results", "Results", "{F427F1C7-92EC-4402-A3AB-0EA51BD809D8}"
+	ProjectSection(SolutionItems) = preProject
+		mongodb-2.6.1-parallels.txt = mongodb-2.6.1-parallels.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57876148-D812-4202-92E4-70FB2D3E4FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57876148-D812-4202-92E4-70FB2D3E4FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57876148-D812-4202-92E4-70FB2D3E4FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57876148-D812-4202-92E4-70FB2D3E4FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A810794-1712-4A07-906A-4BC800787EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A810794-1712-4A07-906A-4BC800787EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A810794-1712-4A07-906A-4BC800787EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A810794-1712-4A07-906A-4BC800787EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4C8DB6-6AE1-409B-B70D-207B24FA750E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4C8DB6-6AE1-409B-B70D-207B24FA750E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4C8DB6-6AE1-409B-B70D-207B24FA750E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4C8DB6-6AE1-409B-B70D-207B24FA750E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
