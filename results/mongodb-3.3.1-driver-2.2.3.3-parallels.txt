@@ -1,0 +1,25 @@
+run.cmd
+
+C:\dev\github\mongo-bench>.\mongo-bench\bin\release\mongo-bench.exe
+Mongo driver: MongoDB.Driver, Version=1.10.1.73, Culture=neutral, PublicKeyToken=f686731cfb9cc103
+Starting 01 threads....time: 0000001710 ms
+Starting 02 threads....time: 0000002091 ms
+Starting 05 threads....time: 0000003055 ms
+Starting 07 threads....time: 0000004142 ms
+Starting 10 threads....time: 0000005797 ms
+
+C:\dev\github\mongo-bench>.\mongo-bench-2\bin\release\mongo-bench-2.exe
+Mongo driver: MongoDB.Driver.Legacy, Version=2.0.1.27, Culture=neutral, PublicKeyToken=null
+Starting 01 threads....time: 0000002872 ms
+Starting 02 threads....time: 0000003222 ms
+Starting 05 threads....time: 0000005238 ms
+Starting 07 threads....time: 0000008404 ms
+Starting 10 threads....time: 0000010624 ms
+
+C:\dev\github\mongo-bench>.\mongo-bench-3\bin\release\mongo-bench-3.exe
+Mongo driver: MongoDB.Driver.Legacy, Version=2.2.3.3, Culture=neutral, PublicKeyToken=null
+Starting 01 threads....time: 0000001658 ms
+Starting 02 threads....time: 0000002303 ms
+Starting 05 threads....time: 0000003361 ms
+Starting 07 threads....time: 0000004901 ms
+Starting 10 threads....time: 0000007086 ms
